@@ -1,0 +1,30 @@
+// Flex Boxes | Grid 
+.flex-col {
+  display: flex;
+  flex-flow: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row;
+}
+
+.center {
+  align-items: center;
+}
+
+.centered {
+  align-self: center;
+}
+
+.node-col {
+  &.parents {
+    margin: 16px auto 0px 16px;
+  }
+  &.nexus {
+    margin: 16px auto 0px auto;
+  }
+  &.children {
+    margin: 16px 16px 0px auto;
+  }
+}
